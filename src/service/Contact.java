@@ -2,8 +2,10 @@ package service;
 
 public class Contact {
 
-	String firstName, lastName, address, city, state, email;
-	long zip, phoneNumber;
+	public String firstName;
+	public String lastName;
+	String address, city, state, email;
+	public long zip, phoneNumber;
 	
 	public String getFirstName() {
 		return firstName;
