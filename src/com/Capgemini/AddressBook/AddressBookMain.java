@@ -1,12 +1,13 @@
 package com.Capgemini.AddressBook;
 
-import java.util.Scanner;
+import java.util.*;
 import service.Contact;
 
 public class AddressBookMain {
 
 	public static void main(String[] args) {
 		Contact contObj = new Contact();
+		List<Contact> contList = new ArrayList<Contact>(); // Using Array List
 
 		System.out.println("Welcome To Address Book Management System");
 		System.out.println("Do you want to add contact details in Address Book ? (Y/N)");
@@ -40,7 +41,10 @@ public class AddressBookMain {
 			System.out.println("Enter Phone No.");
 			contObj.setPhoneNumber(sc.nextLong());
 			
+			System.out.println("Details Added Succesfully");
 			sc.close();
+			
+			System.out.println(contObj);
 
 		}
 	}
