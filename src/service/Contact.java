@@ -53,4 +53,9 @@ public class Contact {
 	public void setPhoneNumber(long phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
+	
+	public String toString()
+	{
+		return "Name = "+firstName+lastName+" Address = "+address+" City : "+city+" State : "+state+" Email Id : "+email+" Zip : "+zip+" Phone No. : "+phoneNumber;
+	}
 }
