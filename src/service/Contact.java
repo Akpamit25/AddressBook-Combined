@@ -58,6 +58,6 @@ public class Contact {
 	
 	public String toString()
 	{
-		return "Name = "+firstName+lastName+" Address = "+address+" City : "+city+" State : "+state+" Email Id : "+email+" Zip : "+zip+" Phone No. : "+phoneNumber;
+		return "Name : " +firstName+ " "+lastName+ ", Address : "+address+ ", City : " +city+ ", State : " +state+ ", Email Id : " +email+ ", Zip : " +zip+ ", Phone No. : "+phoneNumber+ " \n";
 	}
 }
