@@ -1,3 +1,4 @@
+
 package com.Capgemini.AddressBook;
 
 import java.util.*;
@@ -13,7 +14,7 @@ public class AddressBookMain {
 		while (true) {
 			Contact contObj = new Contact();
 
-			System.out.println("Choose Your Option (1/2/3):");
+			System.out.println("Choose Your Option (1/2/3/4):");
 			System.out.println("1. Do you want to add NEW contact details in Address Book ? ");
 			System.out.println("2. Do you want to edit EXISTING contact details in Address Book ? ");
 			System.out.println("3. Don't Add Anything ");
